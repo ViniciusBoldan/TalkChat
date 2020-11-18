@@ -1,0 +1,100 @@
+/*fundo do site*/
+html{
+    background-color: black;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+}
+
+
+/*logo do canto*/
+.menu img{
+    width: 3%;
+    position: fixed;
+    left: 10px;
+    top: 7px;
+}
+
+/*barra de menu superior*/
+.menu{
+    position: fixed;
+    opacity: 90%;
+    top: 0;
+    left: 0;
+    width:100%;
+    color: #0f0f0f;
+    background-color: #00F5FF;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+
+/*links do menu*/
+.menu a{
+    color: #0f0f0f;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #4f4f4f;
+    text-decoration: underline;
+}
+
+
+/*banner no topo da pagina*/
+.banner{
+    border-bottom: 2px solid white;
+	width:100%;
+	display: block;
+}
+.banner img{
+	width: 100%;
+	display: block;
+}
+
+
+/*pagina com resumo expandido(Expandido)*/
+.contentExp{
+    background-color: #0f0f0f;
+    box-shadow: 0px 0px 10px #4f4f4f;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.contentExp h1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.contentExp h2{
+    text-align: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contentExp p{
+    text-align: justify;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
